@@ -26,11 +26,23 @@ This project replaces the proprietary, unmarked controller of a standard commerc
 
 The original commercial driver (PCB marking: `JGCHR_V6.3`) operates as an automatic solar street light controller designed for a 12.8V Lithium Iron Phosphate (LiFePO4/LFP) battery and a 9V LED fixture.
 
+Here is the physical driver images which i reverse engineered 
+![f1](f1)
+![f2](f2)
+![fc1](fc1)
+![fc2](fc2)
+
+Here is reverse engineered circuit 
+![LD t](LD_reverse_engineered.jpg)
+
 ### Hardware Overview
 * **Core Controller:** An unknown/unmarked 14-pin IC (likely a custom ASIC or locked microcontroller).
 * **Power Regulation:** Uses a standard `7805` linear voltage regulator to supply 5V to the logic circuitry.
 * **Switching Components:** Relies heavily on **DH30N03P** N-Channel MOSFETs (30V, 96A) for managing the Photovoltaic (PV) input, Battery (BAT) charging, and LED driving.
 * **Inductor:** Features a toroidal inductor (100µH, 5A) for the DC LED driver circuit.
+
+Here is modified circuit diagram 
+![modified LD](modify_LD.jpg)
 
 ### Original Features and Capabilities
 * **Auto Day/Night Sensing:** Uses the Solar Panel (PV) voltage to detect daylight, eliminating the strict need for external LDRs (though external PIR/LDR pin headers exist). 

@@ -29,7 +29,7 @@ The original commercial driver (PCB marking: `JGCHR_V6.3`) operates as an automa
 Here is the physical driver images which i reverse engineered 
 ![f1](f1)
 ![f2](f2)
-![fc1](fc1)
+![f c2](f c2)
 ![fc2](fc2)
 
 Here is reverse engineered circuit 

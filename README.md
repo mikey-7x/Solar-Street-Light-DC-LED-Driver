@@ -27,10 +27,10 @@ This project replaces the proprietary, unmarked controller of a standard commerc
 The original commercial driver (PCB marking: `JGCHR_V6.3`) operates as an automatic solar street light controller designed for a 12.8V Lithium Iron Phosphate (LiFePO4/LFP) battery and a 9V LED fixture.
 
 Here is the physical driver images which i reverse engineered 
-![f1](f1)
-![f2](f2)
-![f c2](f c2)
-![fc2](fc2)
+![f1](f1.jpg)
+![f2](f2.jpg)
+![fc2](fc1.jpg)
+![fc2](fc2.jpg)
 
 Here is reverse engineered circuit 
 ![LD t](LD_reverse_engineered.jpg)

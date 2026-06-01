@@ -101,8 +101,8 @@ The provided firmware is written in C++ using the Arduino framework, targeting t
 
 ### 1. Building the Circuit
 * Use the provided hand-drawn schematic to route the LM358 and ATmega8A to the existing power stages.
-* Ensure adequate heatsinking is maintained on the **DK30N03P** MOSFETs.
-* Verify the resistor values in the voltage dividers (100kΩ / 18kΩ) to ensure voltages hitting the ATmega pins never exceed 5V.
+* Ensure adequate heatsinking is maintained on the **DH30N03P** MOSFETs.
+* Verify the resistor values in the voltage dividers (120kΩ / 18kΩ) to ensure voltages hitting the ATmega pins never exceed 5V.
 
 ### 2. Flashing the ATmega8A
 1. Install **MiniCore** in the Arduino IDE Boards Manager to support the ATmega8A.

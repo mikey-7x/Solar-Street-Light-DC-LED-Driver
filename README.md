@@ -29,8 +29,8 @@ The original commercial driver (PCB marking: `JGCHR_V6.3`) operates as an automa
 ### Hardware Overview
 * **Core Controller:** An unknown/unmarked 14-pin IC (likely a custom ASIC or locked microcontroller).
 * **Power Regulation:** Uses a standard `7805` linear voltage regulator to supply 5V to the logic circuitry.
-* **Switching Components:** Relies heavily on **DK30N03P** N-Channel MOSFETs (30V, 96A) for managing the Photovoltaic (PV) input, Battery (BAT) charging, and LED driving.
-* **Inductor:** Features a toroidal inductor (labeled 470µH / 10µH, 5A) for the DC LED driver circuit.
+* **Switching Components:** Relies heavily on **DH30N03P** N-Channel MOSFETs (30V, 96A) for managing the Photovoltaic (PV) input, Battery (BAT) charging, and LED driving.
+* **Inductor:** Features a toroidal inductor (100µH, 5A) for the DC LED driver circuit.
 
 ### Original Features and Capabilities
 * **Auto Day/Night Sensing:** Uses the Solar Panel (PV) voltage to detect daylight, eliminating the strict need for external LDRs (though external PIR/LDR pin headers exist). 

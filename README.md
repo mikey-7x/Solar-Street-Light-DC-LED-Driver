@@ -118,10 +118,10 @@ The provided firmware is written in C++ using the Arduino framework, targeting t
 
 ### 2. Flashing the ATmega8A
 1. Install **MiniCore** in the Arduino IDE Boards Manager to support the ATmega8A.
-2. Select **ATmega8** as the board, and set the clock to **8 MHz internal**.
+2. Select **ATmega8** as the board, and set the clock to **16mhz external**.
 3. Connect your ATmega8A to an ISP Programmer (like a USBasp or an Arduino Uno configured as ArduinoISP).
 4. Burn the Bootloader (to set the internal oscillator fuses).
-5. Compile and upload the provided `Arduino_Code.ino` file.
+5. Compile and upload the provided `led_driver.ino` file.
 
 ### 3. Deployment
 1. Connect the **Battery First** (to allow the ATmega8A to boot and stabilize).

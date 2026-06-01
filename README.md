@@ -49,9 +49,9 @@ To bypass the limitations of the unknown proprietary IC, the circuit was complet
 
 ### Hardware Overview
 * **Microcontroller:** **ATmega8A** running on the internal oscillator.
-* **Current Sensing:** Integrated an **LM358 Op-Amp** along with a 0.5Ω (5W) shunt resistor. This amplifies the current signal (gain ≈ 11 via 10k/1k feedback loop) to feed into the ATmega8A's ADC for highly precise overcurrent protection.
-* **MOSFETs:** Retains the high-power **DK30N03P** MOSFETs from the original design.
-* **Voltage Dividers:** Utilizes 100kΩ/18kΩ resistor dividers to safely step down PV and Battery voltages for the ATmega8A's 5V ADC pins.
+* **Current Sensing:** Integrated an **LM358 Op-Amp** along with a 0.5Ω (5W) shunt resistor. This amplifies the current signal (gain ≈ 11 via 100k/10k feedback loop) to feed into the ATmega8A's ADC for highly precise overcurrent protection.
+* **MOSFETs:** Retains the high-power **DH30N03P** MOSFETs from the original design.
+* **Voltage Dividers:** Utilizes 120kΩ/18kΩ resistor dividers to safely step down PV and Battery voltages for the ATmega8A's 5V ADC pins.
 
 ### Custom Capabilities
 * **Programmable Twilight Timer:** Includes a 5-second software debounce timer. The light will not flicker during brief changes in light (e.g., a passing car's headlights or temporary shadows).

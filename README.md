@@ -36,7 +36,7 @@ Here is reverse engineered circuit
 ![LD t](LD_reverse_engineered.jpg)
 
 ### Hardware Overview
-* **Core Controller:** An unknown/unmarked 14-pin IC (likely a custom ASIC or locked microcontroller).
+* **Core Controller:** An unknown/unmarked 16-pin IC (likely a custom ASIC or locked microcontroller).
 * **Power Regulation:** Uses a standard `7805` linear voltage regulator to supply 5V to the logic circuitry.
 * **Switching Components:** Relies heavily on **DH30N03P** N-Channel MOSFETs (30V, 96A) for managing the Photovoltaic (PV) input, Battery (BAT) charging, and LED driving.
 * **Inductor:** Features a toroidal inductor (100µH, 5A) for the DC LED driver circuit.
@@ -50,7 +50,7 @@ Here is modified circuit diagram
 * **Automatic Charging:** Routes PV power to the battery when solar voltage is sufficient.
 * **Voltage Sensing:** Monitors battery voltage to detect and indicate low battery states.
 * **LED Indicators:** * **Green LED:** Indicates battery charging status.
-  * **Red LED:** Indicates low battery status.
+* **Red LED:** Indicates low battery status.
 * **Power Saving:** Utilizes PWM (Pulse Width Modulation) for driving the street light efficiently.
 
 ---
